@@ -1,0 +1,5 @@
+#!/bin/bash
+# Moves the given files to the trash - safer than rm.
+for file_arg do
+	mv "$file_arg" ~/.Trash/
+done
